@@ -59,7 +59,9 @@ b{
     position: relative;
     border-radius: 50%;
     margin: auto;
-    padding: 20px
+    padding: 20px;
+    width: 200px;
+    height: auto;
 }
 
 .heading{

@@ -49,6 +49,13 @@ h3{
     margin-left: 5%;
 }
 
+.project-title{
+    display: block;
+   font-size: 30px;
+   text-align: center;
+   margin: 20px;
+   margin-top: 40px;
+}
 
 b{
     color: rgb(218, 215, 201);
@@ -96,6 +103,10 @@ td{
     margin-left: 7%;
 }
 
+.project-content{
+    margin-left: 4%;
+}
+
 .indent-learn{
     margin-left: 72px;
 }
@@ -119,4 +130,27 @@ td{
 }
 .nav li a:hover{
     color: rgb(197, 197, 197);
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .flex-box {
+    width: 50%;
+  }
+
+.embeded-game{
+    width:  600px;
+    height: 325px;
+    border: 1;
+}
+
+.sample-image{
+    width:  auto;
+    height: 325px;
+    border: 1;
+    margin: 15px;
+    padding: 5px;
 }
